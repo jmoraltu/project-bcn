@@ -45,7 +45,7 @@ nav li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(127, 104, 139);
+    background-color: rgb(238, 236, 238);
 }
 .content-hero div {
     width: 50%;
@@ -74,6 +74,6 @@ nav li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(118, 162, 207);
+    background-color: rgb(238, 236, 238);
     min-height: 96px;
 }
