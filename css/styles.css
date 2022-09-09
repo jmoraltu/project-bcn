@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    /* max-width: 1440px; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.menu {
+    max-height: 122px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Roboto';
+}
+
+#hero {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(127, 104, 139);
+}
+.content-hero div {
+    width: 50%;
+}
+
+.content-hero img {
+    max-width: 570px;
+    max-height: 637px;
+    height: auto;
+    top: 0;
+}
+
+.content-hero h1 {
+    font-size: Roboto;
+    font-weight: 700;
+    font-size: 60px;
+    color: #292E47;
+}
+
+#clients {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.flex-clients-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(118, 162, 207);
+    min-height: 96px;
+}
