@@ -36,13 +36,9 @@ nav {
     flex-wrap: nowrap;
 }  */
 
-/* .circle-header {
-    position: absolute;
-    width: 60.53px;
-    height: 18.46px;
-    left: 170.64px;
-    top: 86.91px;
-} */
+.circle-header {
+    padding: 15px 36px;
+}
 
 .menu {
     display: flex;
@@ -70,15 +66,11 @@ nav {
 }
 
 .contact-header {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 36px;
     gap: 10px;
     background: #072AC8;
-    /* width: 84px;
-    height: 22px; */
 }
 
 
