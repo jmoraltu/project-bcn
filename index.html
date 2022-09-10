@@ -11,12 +11,10 @@
 
 <body>
     <header>
-        <nav>
-            <div class="circle-header">
-                <img src="project-assets/logos/circle.svg" />
-            </div>
+        <nav class="navbar">
+            <img class="circle-header" src="project-assets/logos/circle.svg" />
             <ul class="menu">
-                <li><a href="#"></a>Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#services">Services</a></li>
             </ul>
@@ -32,8 +30,9 @@
                 <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
                 <span>See our work</span>
             </div>
-            <div>
-                <img src="project-assets/hero-section/hero-image.png">
+            <div class="content-image">
+                <img class="card-1" src="project-assets/hero-section/card-1.png">
+                <img class="card-2" src="project-assets/hero-section/card-2.png">
             </div>
         </div>
     </section>
@@ -46,8 +45,48 @@
             <img src="project-assets/logos/amazon-logo.svg" />
         </div>
     </section>
-    <section id="projects"></section>
-    <section id="testimonial"></section>
+    <section id="projects">
+        <div>
+            <h3>Recent Projects</h3>
+            <div class="project-container">
+                <div>
+                    <!-- <img src="project-assets/projects-section/1.jpg"> -->
+                    <div class="project-item-rect-sup-1"></div>
+                    <div class="project-item-rect">
+                        <p class="project-title">Simplify</p>
+                        <p class="project-subtitle">UI design and App development</p>
+                        <a class="project-learn" href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="project-item-rect-sup-2"></div>
+                    <div class="project-item-rect">
+                        <p class="project-title">Dashcoin</p>
+                        <p class="project-subtitle">Web Development</p>
+                        <a class="project-learn" href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="project-item-rect-sup-3"></div>
+                    <div class="project-item-rect">
+                        <p class="project-title">Simplify</p>
+                        <p class="project-subtitle">User Expirience Design</p>
+                        <a class="project-learn" href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="testimonial-bg">
+            <div class="testimonial-emojis">
+                <img class="emotic-1" src="/project-assets/testimonial-section/memoji-1.png">
+                <img class="emotic-2" src="/project-assets/testimonial-section/memoji-2.png">
+                <img class="emotic-3" src="/project-assets/testimonial-section/memoji-3.png">
+                <img class="emotic-4" src="/project-assets/testimonial-section/memoji-4.png">
+            </div>
+        </div>
+    </section>
     <section id="services"></section>
     <section id="cta"></section>
     <footer></footer>
