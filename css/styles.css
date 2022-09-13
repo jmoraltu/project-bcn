@@ -395,6 +395,7 @@ header {
     width: 340px;
     height: auto;
     background: #FFFFFF;
+    padding-bottom: 26px;
     box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
 }
 
@@ -470,4 +471,103 @@ header {
     height: 80px;
     margin-left: 30px;
     margin-top: 40px;
+}
+
+
+#cta {
+    margin-top: 136px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:#FFC600;
+    background-size: cover;
+}
+
+.cta-bg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* height: 500px; */
+    padding-top: 136px;
+    padding-bottom: 137px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.cta-bg h3 {
+    /* H3 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    /* Neutral/Dark */
+    color: #292E47;
+}
+
+.cta-bg p {
+    /* Body/Regular */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* Neutral/Dark */
+    color: #292E47;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.input-icon{
+    background-image: url(/project-assets/newsletter/icon/mail.svg);
+}
+
+.subscribe-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 37px;
+    gap: 10px;
+    /* Primary/Default */
+    background: #072AC8;
+}
+
+.subscribe-btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.email-input{
+    box-sizing: border-box;
+    width: 393px;
+    height: 80px;
+    /* Neutral/Light */
+    background: #F4F6FC;
+    margin-right: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 106px;
 }
